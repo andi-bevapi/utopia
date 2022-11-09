@@ -1,0 +1,63 @@
+.mainSlider{
+    position: relative;
+}
+
+.sliderData{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.imageData > h4{
+    color: #A4A4A4;
+    font-family:"Assistant-Regular";
+}
+
+.imageData > h1{
+    color: #FFFFFF;
+    font-family:"Assistant-Bold";
+}
+
+.fadeIn{
+    animation: fade 3s;
+}
+
+@keyframes fade {
+    0%,100% { opacity: 0 }
+    50% { opacity: 1 }
+}
+
+
+.fadeOut{
+    animation: fadeIn 5s; 
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.sliderButtons{
+    margin-top: 70px;
+}
+
+.buttonStyle{
+    width: 100px;
+    height: 2px;
+    background-color: grey;
+    margin-right: 10px;
+    padding: 2px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.currentImage{
+    background-color: #FF9700 !important;
+}
+
+
+@media screen and (max-width: 1600px) and (min-width: 810px) {
+    .buttonStyle{width: 50px;}
+    
+    .imageData > h1{font-size: 20px;}
+}

@@ -1,0 +1,134 @@
+.wallContainer{
+    margin-left: 30px !important;
+    border-left: 2px solid #CDCDCD;
+}
+
+.wallData{
+    margin-top: 250px;
+    margin-left: 80px;
+}
+
+.wallData > h4{
+    color: #9E9E9E;
+    font-family:"Assistant-ExtraBold";
+}
+
+.wallData > h1{
+    font-size: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-family:"Assistant-ExtraBold" !important;
+}
+
+.profileExpBtn{
+    background-color: #FF9700 !important;
+    text-align: center;
+    font-size: 15px !important;
+    font-family: "Assistant-SemiBold" !important;
+    width: 300px;
+    height: 75px;
+    margin-top: 150px !important;
+}
+
+.profileExpBtn:hover{
+    background-color: #0071D8 !important;
+    letter-spacing: 2px;
+}
+
+.arrowIcon{
+    font-size: 25px!important;
+}
+
+.servicesContainer{
+    margin-top: 84px !important;
+}
+
+.service{
+    background-color: #FBFBFB;
+    margin-right: 10px !important;
+}
+
+.webDesign{ 
+    border-top:5px solid #DF0D25;
+    margin-top:30px !important;
+}
+
+.webDesign > div > p{
+    margin-bottom: 90px !important;
+}
+
+.digitalArt{ 
+    border-top:5px solid #0071D8;
+    margin-top: 105px !important;
+}
+
+.webSite{
+    border-top:5px solid #00D879;
+    margin-top: -20px !important;
+}
+
+.webSite > div > p{
+    padding-bottom: 40px;
+}
+
+.service > div {
+    padding-top: 30px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.service > div > h4 {
+    color: #151515;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    font-family:"Assistant-Bold" !important;
+}
+
+.service > div > p{
+    color: #5E5E5E;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+    font-family:"Assistant-Regular" !important;
+}
+
+.serviceIconBtn{ float: right; }
+
+
+.sliderContainer{
+    margin-top: -52px !important;
+}
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 810px) {
+    .wallContainer{width: 100% !important; margin: 0px; border: 0px;}
+    }
+
+
+@media screen and (max-width: 899px) and (min-width: 420px) {
+
+    .servicesContainer{margin-top: 60px; margin-bottom: 80px;}
+    .wallContainer{width: 100% !important; margin: 0px !important; border: 0px;}
+    .wallData{ width: 90%; margin: 0 auto;}
+
+    .webDesign , .digitalArt , .webSite{ margin: 0px !important; }
+    .webDesign > div > p {margin: 0px !important; padding: 0px !important; }
+    .digitalArt > div > p {margin: 0px !important; padding: 0px !important; }
+    .webSite > div > p {margin: 0px !important; padding: 0px !important; }
+
+    .webSite{margin-top: 0px !important;}
+
+    .wallData > h1{font-size:55px;}
+    .imageData > h1{font-size: 25px;}
+    .imageData > h4 , h1 {padding-left: 30px;}
+    .buttonStyle{width: 70px !important;}
+}
+
+@media screen and (max-width: 850px) and (min-width: 320px) {
+.wallData{margin-top: 0px;}
+}
